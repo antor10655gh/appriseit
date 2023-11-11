@@ -1,0 +1,29 @@
+/* swiper pagination style */
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background: #fff !important;
+  opacity: 100% !important;
+  border: 1px solid #181a1e !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #5ce1e6 !important;
+  border: none !important;
+}
+
+.swiper {
+  padding-bottom: 60px !important;
+}
+
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}

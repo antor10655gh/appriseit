@@ -65,7 +65,7 @@ export default function Header() {
   return (
     <Navbar className="rounded-none shadow-none bg-transparent border-none max-w-screen-xl mx-auto lg:px-0 py-3">
       <div className="flex items-center justify-between text-blue-gray-900">
-        <Typography variant="h6" className="mr-4 cursor-pointer py-1.5">
+        <Typography variant="h5" className="mr-4 cursor-pointer py-1.5">
           <Link to="/">
             Apprise <span className="text-[#17C3B2]">IT</span>
           </Link>

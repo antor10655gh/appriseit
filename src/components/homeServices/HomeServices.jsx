@@ -25,14 +25,21 @@ const HomeServices = () => {
     },
   ];
   return (
-    <div className="py-12 lg:py-20" data-aos="fade-up" data-aos-duration="3000">
-      <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-12">
+    <div className="py-12 lg:py-20">
+      <div
+        className="max-w-screen-xl mx-auto flex flex-col lg:flex-row lg:justify-between lg:items-center gap-12"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         {services.map((service) => (
-          <div key={service.id}>
-            <div className="h-20 w-20 flex items-center justify-center rounded-full bg-[#17c3b2]">
+          <div
+            key={service.id}
+            className="flex flex-col justify-center items-center lg:items-start text-center lg:text-left"
+          >
+            <div className="h-20 w-20 flex items-center justify-center rounded-full bg-[#17c3b2] text-center">
               {service.icon}
             </div>
-            <h1 className="font-bold text-2xl py-2">{service.title}</h1>
+            <h1 className="font-bold text-2xl py-3">{service.title}</h1>
             <p>{service.desc}</p>
           </div>
         ))}

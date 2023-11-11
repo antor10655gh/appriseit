@@ -19,7 +19,10 @@ const AppointmentForm = () => {
         <div className="text-center">
           <h1 className="text-xl lg:text-3xl">Make an Appointment</h1>
         </div>
-        <form className="mt-12 flex flex-col gap-4 z-10">
+        <form
+          className="mt-12 flex flex-col gap-4 z-10"
+          onSubmit={(e) => e.preventDefault()}
+        >
           <div className="flex items-center gap-4">
             <div>
               <Typography
