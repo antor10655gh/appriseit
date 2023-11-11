@@ -38,7 +38,7 @@ function NavList() {
         >
           <Link
             to={item.link}
-            className="flex items-center hover:text-blue-500 transition-colors"
+            className="flex items-center hover:text-[#17c3b2] transition-colors"
           >
             {item.name}
           </Link>
