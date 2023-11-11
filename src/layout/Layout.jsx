@@ -5,7 +5,7 @@ import Footer from "../shared/footer/Footer";
 
 const Layout = () => {
   return (
-    <div className="bg-transparent">
+    <div>
       <Header />
       <main>
         <Routers />
