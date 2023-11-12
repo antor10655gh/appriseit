@@ -196,7 +196,7 @@ const AppointmentForm = () => {
             ></textarea>
           </div>
           <button className="bg-[#17C3B2] text-white py-2 px-4 rounded-md hover:opacity-80 transition duration-300">
-            Check Available Doctors
+            Book Appointment
           </button>
         </form>
       </div>
