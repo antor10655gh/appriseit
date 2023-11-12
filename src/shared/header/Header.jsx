@@ -67,7 +67,7 @@ export default function Header() {
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography variant="h4" className="mr-4 cursor-pointer py-1.5">
           <Link to="/">
-            Apprise <span className="text-[#17C3B2]">IT</span>
+            Apprise <span className="text-[#17C3B2]">Care</span>
           </Link>
         </Typography>
         <div className="hidden lg:block">

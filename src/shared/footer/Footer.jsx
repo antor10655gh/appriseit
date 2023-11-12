@@ -96,7 +96,7 @@ const Footer = () => {
         <div className="flex justify-between flex-col md:flex-row gap-[30px]">
           <div className="w-full md:w-1/3">
             <h1 className="text-2xl">
-              Apprise <span className="text-[#17C3B2]">IT</span>
+              Apprise <span className="text-[#17C3B2]">Care</span>
             </h1>
             <p className="py-2">
               Lorem ipsum dolor sit consectet adipisicing sed do eiusmod temp
