@@ -4,7 +4,7 @@ import DepartmentTabs from "../../shared/departmentTabs/DepartmentTabs";
 
 const HomeDepartment = () => {
   return (
-    <div className="px-8 lg:px-0 py-12 lg:py-24">
+    <div className="px-8 lg:px-0 py-6 lg:py-12">
       <div className="max-w-screen-xl mx-auto">
         <SectionHeader
           title="Our Department"

@@ -5,7 +5,7 @@ import bgImg from "../../assets/images/hero-bg3.jpg";
 
 const HomeAbout = () => {
   return (
-    <div className="px-8 lg:px-0 py-12 lg:py-24">
+    <div className="px-8 lg:px-0 py-6 lg:py-12">
       <div className="max-w-screen-xl mx-auto">
         <div>
           <SectionHeader
