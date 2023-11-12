@@ -23,8 +23,8 @@ const AppointmentForm = () => {
           className="mt-12 flex flex-col gap-4 z-10"
           onSubmit={(e) => e.preventDefault()}
         >
-          <div className="flex items-center gap-4">
-            <div>
+          <div className="flex items-center gap-4 w-full">
+            <div className="w-full">
               <Typography
                 variant="small"
                 color="blue-gray"
@@ -34,7 +34,7 @@ const AppointmentForm = () => {
               </Typography>
               <Input
                 maxLength={5}
-                containerProps={{ className: "min-w-[72px]" }}
+                containerProps={{ className: "min-w-[100%]" }}
                 placeholder="Enter your name"
                 className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
                 labelProps={{
@@ -42,7 +42,7 @@ const AppointmentForm = () => {
                 }}
               />
             </div>
-            <div>
+            <div className="w-full">
               <Typography
                 variant="small"
                 color="blue-gray"
@@ -52,7 +52,7 @@ const AppointmentForm = () => {
               </Typography>
               <Input
                 maxLength={4}
-                containerProps={{ className: "min-w-[72px]" }}
+                containerProps={{ className: "min-w-[100%]" }}
                 placeholder="Enter your email"
                 className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
                 labelProps={{
@@ -99,7 +99,7 @@ const AppointmentForm = () => {
             </div>
           </div>
           <div className="flex flex-col lg:flex-row lg:items-center gap-4">
-            <div>
+            <div className="w-full">
               <Typography
                 variant="small"
                 color="blue-gray"
@@ -139,7 +139,7 @@ const AppointmentForm = () => {
               </div>
             </div>
 
-            <div>
+            <div className="w-full">
               <Typography
                 variant="small"
                 color="blue-gray"
