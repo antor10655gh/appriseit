@@ -4,8 +4,20 @@ import newsImg2 from "../../assets/images/news/blog2.jpg";
 import newsImg3 from "../../assets/images/news/blog3.jpg";
 import SectionHeader from "../../shared/sectionHeader/SectionHeader";
 import { Link } from "react-router-dom";
+import useDataLoad from "../../utils/useDataLoad";
 
 const LatestNews = () => {
+  //   If we want we can use this code and make it dynamic
+  //   const apiUrl = "http://localhost:5000/api/v1/latest_news";
+  //   const { data, loading, error } = useDataLoad(
+  //     apiUrl,
+  //     {
+  //       headers: {
+  //         Authorization: `Bearer ${localStorage.getItem("token")}`,
+  //       },
+  //     },
+  //     [apiUrl]
+  //   );
   const newses = [
     {
       id: 1,
