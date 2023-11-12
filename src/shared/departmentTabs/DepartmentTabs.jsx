@@ -18,7 +18,6 @@ import pulmonologySvg from "../../assets/images/svgs/pulmonary.svg";
 import cardiologySvg from "../../assets/images/svgs/cardiology.svg";
 import dentistrySvg from "../../assets/images/svgs/dental.svg";
 import neurologySvg from "../../assets/images/svgs/neurology.svg";
-import PrimaryBtn from "../../utils/PrimaryBtn/PrimaryBtn";
 
 const DepartmentTabs = () => {
   const data = [
@@ -108,7 +107,9 @@ const DepartmentTabs = () => {
                 </h1>
                 <p className="py-3 font-bold">{semiDesc}</p>
                 <p className="text-gray-500 py-3">{desc}</p>
-                <PrimaryBtn text="Read More" />
+                <button className="bg-[#17C3B2] text-white min-w-[250px] mx-auto mt-4 py-2 px-4 rounded-md hover:opacity-80 transition duration-300">
+                  Read More
+                </button>
               </div>
             </div>
           </TabPanel>

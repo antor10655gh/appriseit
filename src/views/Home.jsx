@@ -5,6 +5,7 @@ import HomeAbout from "../components/homeAbout/HomeAbout";
 import HomeDepartment from "../components/homeDepartment/HomeDepartment";
 import HomeSpecialist from "../components/homeSpecialist/HomeSpecialist";
 import LatestNews from "../components/latestNews/LatestNews";
+import StayConnect from "../components/stayConnect/StayConnect";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <HomeDepartment />
       <HomeSpecialist />
       <LatestNews />
+      <StayConnect />
     </>
   );
 };

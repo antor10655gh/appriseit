@@ -1,6 +1,5 @@
 import React from "react";
 import bgImg from "../../assets/images/hero-bg11.jpg";
-import PrimaryBtn from "../../utils/PrimaryBtn/PrimaryBtn";
 import AppointmentForm from "../apointmentForm/AppointmentForm";
 
 const Hero = () => {
@@ -25,7 +24,9 @@ const Hero = () => {
             Lorem ipsum dolor sit amet, consectetur mag. Tempor incididunt ut
             labore et dolore elit.
           </p>
-          <PrimaryBtn text="Get Started" />
+          <button className="bg-[#17C3B2] text-white min-w-[250px] mx-auto mt-4 py-2 px-4 rounded-md hover:opacity-80 transition duration-300">
+            Get Started
+          </button>
         </div>
         <div>
           <AppointmentForm />

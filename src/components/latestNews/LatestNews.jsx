@@ -3,6 +3,7 @@ import newsImg1 from "../../assets/images/news/blog1.jpg";
 import newsImg2 from "../../assets/images/news/blog2.jpg";
 import newsImg3 from "../../assets/images/news/blog3.jpg";
 import SectionHeader from "../../shared/sectionHeader/SectionHeader";
+import { Link } from "react-router-dom";
 
 const LatestNews = () => {
   const newses = [
@@ -40,11 +41,7 @@ const LatestNews = () => {
           desc="We are leading healthcare provider."
         />
         <div>
-          <div
-            className="grid grid-cols-1 lg:grid-cols-3 gap-6"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             {newses.map((news) => (
               <div key={news.id}>
                 <div class="img-hover-zoom relative group cursor-pointer rounded-md">
@@ -61,6 +58,11 @@ const LatestNews = () => {
                     </p>
                   </div>
                   <p className="text-sm text-gray-500 mb-3">{news.desc}</p>
+                  <Link>
+                    <button className="bg-[#17c3b2] text-white px-4 py-2 rounded hover:opacity-80 transition duration-300">
+                      Read More
+                    </button>
+                  </Link>
                 </div>
               </div>
             ))}

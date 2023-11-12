@@ -195,7 +195,7 @@ const AppointmentForm = () => {
               placeholder="Type your message here..."
             ></textarea>
           </div>
-          <button className="bg-[#17C3B2] text-white py-2 px-4 rounded-md hover:bg-[#066158] transition duration-300">
+          <button className="bg-[#17C3B2] text-white py-2 px-4 rounded-md hover:opacity-80 transition duration-300">
             Check Available Doctors
           </button>
         </form>
